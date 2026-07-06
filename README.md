@@ -1,6 +1,8 @@
 # validador
 
-Uma crate Rust simples e leve para validação de CPF (Cadastro de Pessoas Físicas) brasileiro.
+Um crate Rust simples e leve para validação de CPF (Cadastro de Pessoas Físicas) brasileiro.
+
+📦 Disponível em [crates.io](https://crates.io/crates/validador) · 📂 Código-fonte: [github.com/ian-cunha/validador-crate-rust](https://github.com/ian-cunha/validador-crate-rust)
 
 ## ✨ Funcionalidades
 
@@ -11,26 +13,37 @@ Uma crate Rust simples e leve para validação de CPF (Cadastro de Pessoas Físi
 
 ## 📦 Instalação
 
-A crate é instalada diretamente do repositório GitHub.
+A crate está publicada oficialmente no [crates.io](https://crates.io/crates/validador).
+
+### Via crates.io (recomendado)
 
 Adicione ao `Cargo.toml` do seu projeto:
 
 ```toml
 [dependencies]
-validador = { git = "https://github.com/ian-cunha/validador-crate-rust.git" }
-```
-
-Ou, se quiser fixar uma versão/branch/tag específica:
-
-```toml
-[dependencies]
-validador = { git = "https://github.com/ian-cunha/validador-crate-rust.git", tag = "v0.1.0" }
+validador = "0.1.1"
 ```
 
 Em seguida, rode:
 
 ```bash
 cargo build
+```
+
+### Via GitHub
+
+Se preferir, você pode instalar diretamente do repositório:
+
+```toml
+[dependencies]
+validador = { git = "https://github.com/ian-cunha/validador-crate-rust.git" }
+```
+
+Ou fixando uma branch/tag/branch específica:
+
+```toml
+[dependencies]
+validador = { git = "https://github.com/ian-cunha/validador-crate-rust.git", tag = "v0.1.0" }
 ```
 
 ## 🚀 Uso
