@@ -11,11 +11,26 @@ Uma crate Rust simples e leve para validação de CPF (Cadastro de Pessoas Físi
 
 ## 📦 Instalação
 
+A crate é instalada diretamente do repositório GitHub.
+
 Adicione ao `Cargo.toml` do seu projeto:
 
 ```toml
 [dependencies]
-validador = "0.1.0"
+validador = { git = "https://github.com/ian-cunha/validador-crate-rust.git" }
+```
+
+Ou, se quiser fixar uma versão/branch/tag específica:
+
+```toml
+[dependencies]
+validador = { git = "https://github.com/ian-cunha/validador-crate-rust.git", tag = "v0.1.0" }
+```
+
+Em seguida, rode:
+
+```bash
+cargo build
 ```
 
 ## 🚀 Uso
