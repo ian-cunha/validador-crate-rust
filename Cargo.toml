@@ -1,6 +1,12 @@
 [package]
 name = "validador"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
+authors = ["Ian Cunha Moura <iancunha20@gmail.com>"]
+description = "Validador de CPF"
+license = "MIT"
+repository = "https://github.com/ian-cunha/validador-crate-rust.git"
+documentation = "https://github.com/ian-cunha/validador-crate-rust/blob/main/README.md"
+homepage = "https://github.com/ian-cunha/validador-crate-rust"
 
 [dependencies]
