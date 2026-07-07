@@ -30,7 +30,7 @@ Adicione ao `Cargo.toml` do seu projeto:
 
 ```toml
 [dependencies]
-validador = "0.1.0"
+validador = "1.0.1"
 ```
 
 ### Via GitHub
@@ -46,7 +46,7 @@ Ou fixando uma branch/tag/branch específica:
 
 ```toml
 [dependencies]
-validador = { git = "https://github.com/ian-cunha/validador-crate-rust.git", tag = "v0.1.0" }
+validador = { git = "https://github.com/ian-cunha/validador-crate-rust.git", tag = "v1.0.1" }
 ```
 
 ## 🚀 Uso
