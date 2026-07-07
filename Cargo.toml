@@ -1,12 +1,13 @@
 [package]
 name = "validador"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2024"
 authors = ["Ian Cunha Moura <iancunha20@gmail.com>"]
-description = "Validador de CPF e CNPJ"
+description = "Uma crate Rust para validação de dados comuns em projetos do dia a dia. Inclui validadores para CPF, CNPJ, e-mail, CEP, telefone, data, cartão de crédito, senha, URL, UUID e placa de carro."
 license = "MIT"
 repository = "https://github.com/ian-cunha/validador-crate-rust.git"
 documentation = "https://github.com/ian-cunha/validador-crate-rust/blob/main/README.md"
 homepage = "https://github.com/ian-cunha/validador-crate-rust"
 
 [dependencies]
+chrono = "0.4"
